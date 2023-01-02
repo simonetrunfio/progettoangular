@@ -7,13 +7,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { PostComponent } from './post/post.component';
+import { GetComponent } from './get/get.component';
+import { DeleteComponent } from './delete/delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    PostComponent,
+    GetComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,

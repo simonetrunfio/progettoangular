@@ -2,17 +2,21 @@
     margin: 0;
 }
 
-h1, p {
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover{
+    color: gray;
+}
+
+p {
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    color: gray
 }
 
 header {
