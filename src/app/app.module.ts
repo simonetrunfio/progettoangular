@@ -7,10 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { PostComponent } from './post/post.component';
-import { GetComponent } from './get/get.component';
-import { DeleteComponent } from './delete/delete.component';
+import { HomeComponent } from './_components/home/home.component';
+import { PostComponent } from './_services/post/post.component';
+import { GetComponent } from './_services/get/get.component';
+import { DeleteComponent } from './_services/delete/delete.component';
 
 @NgModule({
   declarations: [
