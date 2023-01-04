@@ -7,10 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './_components/home/home.component';
-import { PostComponent } from './_services/post/post.component';
-import { GetComponent } from './_services/get/get.component';
-import { DeleteComponent } from './_services/delete/delete.component';
+import { HomeComponent } from './components/home/home.component';
+import { GetComponent } from './components/servizi/get/get.component';
+import { DeleteComponent } from './components/servizi/delete/delete.component';
+import { PostComponent } from './components/servizi/post/post.component';
+
 
 @NgModule({
   declarations: [
@@ -18,10 +19,10 @@ import { DeleteComponent } from './_services/delete/delete.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    PostComponent,
     GetComponent,
-    DeleteComponent
-  ],
+    DeleteComponent,
+    PostComponent,
+ ],
   imports: [
     BrowserModule,
     HttpClientModule,
