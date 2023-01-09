@@ -10,6 +10,8 @@ export class service implements OnInit {
 
   constructor(private http: HttpClient) { }
 
+  
+
   getCustomer(email: string): Observable<any> {
     return this.http.get(`${this.baseUrl}/${email}`)
   }

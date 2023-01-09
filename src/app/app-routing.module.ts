@@ -6,6 +6,7 @@ import { GetComponent } from './components/servizi/get/get.component';
 import { PostComponent } from './components/servizi/post/post.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: "full" },
   { path: 'home', component: HomeComponent},
   { path: 'post', component: PostComponent},
   { path: 'get', component: GetComponent},

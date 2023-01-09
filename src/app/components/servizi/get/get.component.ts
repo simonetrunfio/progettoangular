@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { service } from 'src/app/service';
 
 @Component({
   selector: 'app-get',
